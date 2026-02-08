@@ -27,6 +27,11 @@ function Hero() {
           src={assets.hero_img}
           alt="Hero illustration"
         />
+        <img
+          className="absolute -top-40 -right-40 -z-1 sm:-top-100 sm:-right-70 dark:hidden"
+          src={assets.bgImage1}
+          alt=""
+        />
       </div>
     </div>
   );
