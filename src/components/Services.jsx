@@ -46,11 +46,7 @@ function Services() {
 
       <div className="flex flex-col md:grid grid-cols-2">
         {servicesData.map((service, index) => (
-          <ServiceCard
-            key={index}
-            index={index}
-            service={service}
-          ></ServiceCard>
+          <ServiceCard key={index} index={index} service={service} />
         ))}
       </div>
     </div>
