@@ -7,7 +7,7 @@ function Teams() {
       <Title
         title="Meet the team"
         description="A passionate team of digital experts dedicated to your brands success."
-      ></Title>
+      />
       <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
         {teamData.map((team, idx) => (
           <div
